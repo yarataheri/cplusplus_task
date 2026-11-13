@@ -1,3 +1,4 @@
+/*Github account: https://github.com/yarataheri/cplusplus_task*/
 #include <iostream>
 #include <cmath>
 
@@ -78,6 +79,15 @@ Stores only zero and positive whole numbers.*/
 Designed to provide at least as much precision as double.
 Its size and precision depend on the compiler and platform.*/
 
+
+    int integer_size = 18456;
+    std::string text_size = "Hello world";
+    bool is_off = true;
+
+    std::cout << "char: " <<sizeof(grade) << " bytes" << std::endl; 
+    std::cout << "boolean: " <<sizeof(is_off) << " bytes" << std::endl; 
+    std::cout << "string: " <<sizeof(text_size) << " bytes" << std::endl; 
+    std::cout << "integer: " <<sizeof(integer_size) << " bytes" << std::endl; 
     std::cout << "wchar_t: " << sizeof(wide_char) << " bytes"<< std::endl;
     std::cout << "char16_t: " << sizeof(sixteen_char) << " bytes" << std::endl;
     std::cout << "char32_t: " << sizeof(thirty_two_char) << " bytes" << std::endl;
